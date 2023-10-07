@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header{
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.737);
+}
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav button{
+    padding: 5px 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+button i{
+    transition: all .3s linear;
+}
+.nav button:hover i{
+    transform: rotate(180deg);
+}
+h2{
+    margin: 40px 10px;
+}
+#productList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#productList .item img{
+    height: 100px;
+}
+.item{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+    margin: 15px 0;
+}
+.item:hover{
+    background-color: rgba(217, 217, 217, 0.737);
+}
+.content{
+    margin: 0 20px ;
+}
+.content h4{
+    margin: 5px 0;
+}
+.item a{
+    color: black;
+}
+#productList a{
+    display: inline;
+    height: 20px;
+}
+#productList a:hover::after{
+    display: inline;
+}
